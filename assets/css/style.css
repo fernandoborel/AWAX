@@ -901,6 +901,39 @@ textarea::placeholder{
 .footer-h1 h1{
     font-size: 14px;
 }
+.devfer h1{
+    color: #CCC;
+    font-size: 20px;
+}
+
+.contact-fer{
+    display: flex;
+    margin-top: 20px;
+}
+.linkedin{
+    background-color: #0E76A9 ;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.email{
+    background-color: #999 ;
+    width: 37px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.telefone{
+    background-color: #FF0000 ;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
 
 /* RESPONSIVIDADE TABLET */
 
@@ -962,6 +995,13 @@ textarea::placeholder{
         max-width: 580px;
     }
 
+    .section-companys img{
+        padding: 20px;
+    }
+    .company4 {
+        display: none;
+    }
+
     .section-map{
         padding-left: 30px;
         padding-right: 30px;
@@ -978,6 +1018,21 @@ textarea::placeholder{
     .section-map--info-item:last-child{
         margin-bottom: 0;
     }
+    .devfer h1{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .contact-fer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+
 }
 
 /* RESPONSIVIDADE MOBILE */
@@ -1113,7 +1168,19 @@ textarea::placeholder{
         margin-bottom: 30px;
     }
 
-
+    .section-contact textarea{
+        width: 300px;
+    }
+    .subject input[type=text]{
+        width: 300px;
+    }
+    .company1,
+    .company2,
+    .company3,
+    .company4 {
+        display: none;
+    }
+    
     .section-companys2{
         height: 70px;
     }
@@ -1196,5 +1263,19 @@ textarea::placeholder{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .devfer h1{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto;
+    }
+    .contact-fer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 25px;
     }
 }
