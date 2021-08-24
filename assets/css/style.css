@@ -74,6 +74,7 @@ header{
     color: #FFF;
 }
 
+
 /* MAIN */
 
 .banner{
@@ -944,7 +945,8 @@ textarea::placeholder{
     .menu-opener{
         display: block;
         width: 45px;
-        margin-right: 30px;
+        height: 30px;
+        margin-right: 20px;
     }
     nav{
         display: none;
@@ -1045,6 +1047,7 @@ textarea::placeholder{
         display: block;
         width: 45px;
         margin-right: 30px;
+        cursor: pointer;
     }
     nav{
         display: none;
