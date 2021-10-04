@@ -936,6 +936,24 @@ textarea::placeholder{
     margin-left: 10px;
 }
 
+.scrollbutton {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #121212;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  .scrollbutton p {
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+  }
+
 /* RESPONSIVIDADE TABLET */
 
 @media (min-width:450px) and (max-width:800px) {
